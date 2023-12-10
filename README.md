@@ -3,8 +3,11 @@
 To get started, run the following code to create the environment
 
 git clone 
+
 cd ecDNA-Capstone
+
 conda env create -f environment.yml
+
 conda activate cap
 
 ## Image Specifications
