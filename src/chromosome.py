@@ -3,24 +3,35 @@ import os
 import cv2
 from sklearn.cluster import KMeans
 from matplotlib.pyplot import imshow
-import skimage
 import numpy as np
 from pathlib import Path
 import configparser
 import csv
 
+
 def count(image):
+    """
+    Takes an image of a cell and return the number of chromosomes in the cell.
+    Also save a photo of the cell's edges in a folder.
+
+    Parameters:
+        image: Image of a cell
+    Returns:
+        Count of chromosomes in the cell.
+    """
+    # read image
     img = cv2.imread(image)
     img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
+    # find the edges in the image
     edges = cv2.Canny(img,25,250)
     plt.subplot(121),plt.imshow(img,cmap = 'gray')
     plt.title('Original Image'), plt.xticks([]), plt.yticks([])
     plt.subplot(122),plt.imshow(edges,cmap = 'gray')
     plt.title('Edge Image'), plt.xticks([]), plt.yticks([])
 
+    # set path to save
     img_name = image.split('/')[-1]
-
     output_folder = 'annotated/' + img_name
     output_filename = 'a_' + img_name
 

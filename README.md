@@ -1,5 +1,5 @@
 # TODO: PUT PROJECT TITLE HERE 
-ADD PROJECT DESCRIPTION HERE
+This contains the code for a chromosome segmentation tool.
 
 ## Directory
 
