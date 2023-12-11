@@ -7,7 +7,9 @@ ADD PROJECT DESCRIPTION HERE
 | ----------- | ----------- |
 | config.ini      | Configuration file to set parameters       |
 | environment.yml   | File to create the environment        |
-...
+
+
+
 | Folder      | Description |
 | ----------- | ----------- |
 | sample      | Folder containing sample images to use with our project       |
