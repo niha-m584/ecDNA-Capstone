@@ -7,15 +7,20 @@ ADD PROJECT DESCRIPTION HERE
 | ----------- | ----------- |
 | config.ini      | Configuration file to set parameters       |
 | environment.yml   | File to create the environment        |
+...
+| Folder      | Description |
+| ----------- | ----------- |
+| sample      | Folder containing sample images to use with our project       |
+| src   | Contains our Python scripts        |
 
 To get started, run the following code to create the environment.
 
-'''
+```
 git clone 
 cd ecDNA-Capstone
 conda env create -f environment.yml
 conda activate cap
-'''
+```
 
 ## Image Specifications
 Input folder will only read .tif files
