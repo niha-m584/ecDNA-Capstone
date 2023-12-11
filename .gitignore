@@ -1,4 +1,7 @@
 train_short
-project.ipynb
+*.ipynb
 .*/
 .ipynb_checkpoints
+annotated
+.DS_*
+output.csv

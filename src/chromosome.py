@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-from IPython.display import Image
 import os
 import cv2
 from sklearn.cluster import KMeans
@@ -47,15 +46,13 @@ if __name__ == '__main__':
             file_data.append({'filename': filename, 'num_chromosomes': num_chroms})
 
     
+    # write to csv
     csv_file_path = 'output.csv'
 
     with open(csv_file_path, 'w', newline='') as csv_file:
         fieldnames = ['filename', 'num_chromosomes']
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
-
         writer.writeheader()
 
         writer.writerows(file_data)
-
-
 
