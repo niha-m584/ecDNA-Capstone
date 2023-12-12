@@ -1,5 +1,6 @@
 # Casting Light on Chromosomes: A Study of FISH and DAPI Image Segmentation in Cancer Research
-This contains the code for our chromosome segmentation tool.
+This contains the code for our chromosome segmentation tool. The notebook files were for
+our personal testing and early implemntations.
 
 ## Directory
 
