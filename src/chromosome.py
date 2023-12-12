@@ -1,9 +1,7 @@
 import matplotlib.pyplot as plt
 import os
 import cv2
-from sklearn.cluster import KMeans
 from matplotlib.pyplot import imshow
-import numpy as np
 from pathlib import Path
 import configparser
 import csv
