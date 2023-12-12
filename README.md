@@ -1,5 +1,5 @@
-# TODO: PUT PROJECT TITLE HERE 
-This contains the code for a chromosome segmentation tool.
+# Casting Light on Chromosomes: A Study of FISH and DAPI Image Segmentation in Cancer Research
+This contains the code for our chromosome segmentation tool.
 
 ## Directory
 
